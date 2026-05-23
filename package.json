@@ -1,7 +1,8 @@
 {
   "name": "tils",
-  "version": "0.0.0",
+  "description": "TILs is a curated collection of my insights, notes, and personal discoveries as a software developer",
   "private": true,
+  "version": "0.0.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -31,6 +32,16 @@
     "@types/react": "^19.0.0",
     "typescript": "~6.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parisikosto/tils.git"
+  },
+  "author": "parisikosto <parisikosto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parisikosto/tils.git/issues"
+  },
+  "homepage": "https://github.com/parisikosto/tils.git#readme",
   "browserslist": {
     "production": [
       ">0.5%",
