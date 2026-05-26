@@ -29,7 +29,7 @@ const config: Config = {
       title: 'TILs',
       logo: {
         alt: 'parisikosto logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
