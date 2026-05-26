@@ -52,3 +52,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.ubuntu-icon > div::before {
+  background: url('/static/img/tech-icons/ubuntu.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

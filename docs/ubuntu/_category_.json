@@ -1,0 +1,8 @@
+{
+  "label": "Ubuntu",
+  "className": "icon ubuntu-icon",
+  "link": {
+    "type": "generated-index",
+    "description": "Ubuntu is the modern, open source operating system on Linux for the enterprise server, desktop, cloud, and IoT."
+  }
+}
