@@ -19,6 +19,7 @@ const config: Config = {
       {
         docs: { routeBasePath: '/', sidebarPath: './sidebars.ts' },
         theme: { customCss: './src/css/custom.css' },
+        gtag: { trackingID: 'G-5DTBC51CQT', anonymizeIP: true },
       } satisfies Preset.Options,
     ],
   ],
@@ -29,7 +30,6 @@ const config: Config = {
       logo: {
         alt: 'parisikosto logo',
         src: 'img/logo.svg',
-        // srcDark: 'img/logo_dark.png',
       },
       items: [
         {
