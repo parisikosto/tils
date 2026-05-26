@@ -21,6 +21,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/*
+ * Icons CSS
+*/
 .icon > div::before {
   content: '';
   display: inline-block;
@@ -31,6 +34,13 @@
 
 .docusaurus-icon > div::before {
   background: url('/static/img/tech-icons/docusaurus.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.git-icon > div::before {
+  background: url('/static/img/tech-icons/git.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
