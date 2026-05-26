@@ -1,0 +1,8 @@
+{
+  "label": "React",
+  "className": "icon react-icon",
+  "link": {
+    "type": "generated-index",
+    "description": "A JavaScript library for building user interfaces."
+  }
+}
