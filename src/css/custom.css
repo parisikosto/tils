@@ -59,3 +59,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.vscode-icon > div::before {
+  background: url('/static/img/tech-icons/vscode.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

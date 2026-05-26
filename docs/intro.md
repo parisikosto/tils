@@ -6,6 +6,14 @@ sidebar_position: 1
 
 # Introduction
 
+## 💻 Code Editors and IDEs
+
+Setup instructions for popular code editors and IDEs.
+
+|                            |
+| -------------------------- |
+| [VS Code](/category/vscode) |
+
 ## 📚 Documentation Site Generators
 
 How-tos and setup instructions for documentation site generators.
