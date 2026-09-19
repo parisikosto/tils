@@ -20,7 +20,9 @@ const config: Config = {
       {
         docs: { routeBasePath: '/', sidebarPath: './sidebars.ts' },
         theme: { customCss: './src/css/custom.css' },
-        gtag: { trackingID: 'G-5DTBC51CQT', anonymizeIP: true },
+        ...(process.env.NODE_ENV === 'production'
+          ? { gtag: { trackingID: 'G-5DTBC51CQT', anonymizeIP: true } }
+          : {}),
       } satisfies Preset.Options,
     ],
   ],
