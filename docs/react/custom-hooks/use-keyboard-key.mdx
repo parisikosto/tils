@@ -1,0 +1,39 @@
+import { KeyboardKeyDemo } from '@site/src/docs/react/custom-hooks/KeyboardKeyDemo.tsx';
+
+# useKeyboardKey
+
+A hook that runs a callback whenever a specific keyboard key is pressed,
+and cleans up the listener automatically.
+
+## The hook
+
+```ts title="useKeyboardKey.ts"
+import { useEffect } from 'react';
+
+export const useKeyboardKey = ({
+  key,
+  action,
+}: {
+  key: string;
+  action: () => void;
+}) => {
+  useEffect(() => {
+    const callback = (e: Event) => {
+      const event = e as unknown as KeyboardEvent;
+      if (event.code.toLowerCase() === key.toLowerCase()) {
+        action();
+      }
+    };
+
+    document.addEventListener('keydown', callback);
+
+    return () => {
+      document.removeEventListener('keydown', callback);
+    };
+  }, [action, key]);
+};
+```
+
+## Try it
+
+<KeyboardKeyDemo />

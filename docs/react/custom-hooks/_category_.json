@@ -1,0 +1,7 @@
+{
+  "label": "Custom Hooks",
+  "link": {
+    "type": "generated-index",
+    "description": "Reusable React hooks for common functionality — geolocation, keyboard shortcuts, local storage, and more."
+  }
+}
