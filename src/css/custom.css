@@ -46,6 +46,13 @@
   background-position: center;
 }
 
+.mongodb-icon > div::before {
+  background: url('/static/img/tech-icons/mongodb.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .react-icon > div::before {
   background: url('/static/img/tech-icons/react.svg');
   background-size: contain;

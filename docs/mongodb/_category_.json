@@ -1,5 +1,6 @@
 {
   "label": "MongoDB",
+  "className": "icon mongodb-icon",
   "link": {
     "type": "generated-index",
     "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage."
