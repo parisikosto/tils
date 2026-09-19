@@ -1,0 +1,7 @@
+{
+  "label": "VPS Setup",
+  "link": {
+    "type": "generated-index",
+    "description": "Manual, step-by-step bootstrapping of a fresh Ubuntu VPS — the same process the cube CLI automates."
+  }
+}
