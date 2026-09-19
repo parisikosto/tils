@@ -46,6 +46,14 @@ Open-source tools and projects I've built.
 | ------------------------ |
 | [Cube](/category/cube)   |
 
+## 🌐 Public APIs
+
+Free/public APIs I've used or want to remember for future projects.
+
+|                                          |
+| ---------------------------------------- |
+| [Public APIs](/category/public-apis)     |
+
 ## 🐧 Linux Systems
 
 Useful instructions for various Linux distributions.

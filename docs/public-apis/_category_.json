@@ -1,0 +1,8 @@
+{
+  "label": "Public APIs",
+  "className": "icon public-apis-icon",
+  "link": {
+    "type": "generated-index",
+    "description": "Public/free APIs I've used or want to remember for future projects."
+  }
+}
