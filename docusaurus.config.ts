@@ -13,6 +13,7 @@ const config: Config = {
   projectName: 'tils',
   onBrokenLinks: 'throw',
   i18n: { defaultLocale: 'en', locales: ['en'] },
+  themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       'classic',
