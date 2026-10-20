@@ -8,7 +8,7 @@
 	camend = commit --amend --no-edit
 	co = checkout
 	hist = log --all --graph --decorate --oneline
-	pf = git st pull && git fetch -p
+	pf = !git pull && git fetch -p
 	rc = !git reset --hard && git clean -df
 	st = status
 ```
@@ -25,7 +25,7 @@ echo '
 	camend = commit --amend --no-edit
 	co = checkout
 	hist = log --all --graph --decorate --oneline
-	pf = git st pull && git fetch -p
+	pf = !git pull && git fetch -p
 	rc = !git reset --hard && git clean -df
 	st = status
 ' > ~/.gitconfig
