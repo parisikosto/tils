@@ -18,8 +18,8 @@
 ```sh
 echo '
 [user]
-	name = Paris Kostopoulos
-	email = parisikosto@gmail.com
+	name = Your Name
+	email = your_email@example.com
 [alias]
 	ball = branch -a
 	camend = commit --amend --no-edit
